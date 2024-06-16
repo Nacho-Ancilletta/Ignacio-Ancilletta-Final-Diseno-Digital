@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+border: 2px solid black;  background-color: purple;
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+}
+
+
+header img{
+width: 100%;
+display: block;
+margin-bottom: 4em;
+}
+
+
+
+
+h1{
+font-family: "Alfa Slab One", serif; 
+font-weight: 200;
+font-size: 3em;
+color: purple;
+}
+
+h2{ 
+font-family: "Alfa Slab One", serif; 
+font-weight: 200;
+font-size: 2em;
+color: purple;
+}
+
+h3{
+font-family: "Alfa Slab One", serif; 
+font-size: 1em;
+margin-top: 3em;
+color: purple;
+}
+
+p{ 
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 1em;
+}
+
+.col-md-5 {
+    max-height: 50vh;
+    
+}
+
+img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+    margin-top: 5em;
+}
+
+footer{ 
+
+background-color: purple;
+height: 6em;
+width: 100%;
+margin-top: 15em;
+
+}
+
+@media(max-width:786px)
+{p {font-size: 1em;}
+h3 { font-size: 2em;}
+h1 {font-size: 3em;}
+}
